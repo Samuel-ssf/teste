@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    
+}
+
+ul {
+    height: 25px;
+    width: 95%;
+    bottom: 97%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: fixed;
+
+}
+
+.img-topo {
+    height: 95px;
+}
+
+video {
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.capa {
+    position:absolute;
+    bottom: 30%;
+    left: 5%;
+    width: 30%;
+    z-index: 3;
+
+}
+
+.capa-titulo {
+    color: white;
+    font-size: 140px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+
+}
+
+.capa-descrição {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;    
+    
+
+}
+
+.link-assistir{
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    border-radius:10px;
+    cursor: pointer;
+    font-size:40px;
+      
+}
+
+.link-info{
+    color:black;
+    background-color:#a9a2a2;
+    padding: 20px 30px;
+    border-radius:10px;
+    cursor: pointer;
+    font-size:40px;
+    z-index: 3;
+
+}
+
+.imagem-carrossel{
+ height: 300px;
+ 
+
+}
+
+#carouselExampleControls{
+    background-color: transparent;
+    position: absolute;
+    bottom: -152px;
+    left: 9px;
+    font-style: 90px;
+    right: 50%;
+}
+.titulo-carrossel{
+  color: white;
+  font-size: 30px;
+  margin-bottom:10px;
+  font-weight: bold;
+  font-size:80px;
+  right: 90%;
+}
+.botao-som{
+border: none;
+border-radius: 8px;
+cursor:pointer;
+z-index: 4;
+position:absolute;
+top: 800px;
+right: 50px;
+font-size: 40px;
+
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+.modal-conteudo{
+    background-color: #181818;
+    margin:60px auto;
+    padding: 60px;
+    width: 40%;
+    font-size: 50px;
+    color:white
+   
+}
+
